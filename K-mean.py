@@ -45,7 +45,7 @@ k_centroid = random_centroid(data, k=3)
 
 ## Step 2: Assign Points to K Clusters
 
-# We use Euclidean Distance to get the determine the the closest centroid
+# We use Euclidean Distance to determine the closest centroid
 # sqrt(d1^2 + d2^2)
 
 def assign_clusters(points, centroids):
